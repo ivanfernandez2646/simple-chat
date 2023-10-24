@@ -1,0 +1,31 @@
+.TypeMessage_wrapper {
+  background-color: #f8f2f2;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.TypeMessage {
+  padding: 1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  all: unset;
+  text-align: left;
+  flex-grow: 1;
+}
+
+::-webkit-input-placeholder {
+  text-align: left;
+}
+
+:-moz-placeholder {
+  text-align: left;
+}

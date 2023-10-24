@@ -1,0 +1,38 @@
+.UserInfo {
+  padding: 1.5rem;
+}
+
+.UserInfo-header {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  justify-content: space-between;
+}
+
+.UserInfo-header_left {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  height: 3rem;
+}
+
+.UserInfo-header_name {
+  margin-bottom: 0;
+}
+
+.UserInfo-header_status {
+  margin-top: 0;
+  text-align: left;
+}
+
+.UserInfo-searcher {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
+}

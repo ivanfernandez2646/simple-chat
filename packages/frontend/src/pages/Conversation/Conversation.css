@@ -1,0 +1,5 @@
+.Conversation {
+  display: flex;
+  flex-direction: column;
+  flex: 10 1 fit-content;
+}

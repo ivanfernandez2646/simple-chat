@@ -1,0 +1,57 @@
+.ChatWrapper {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5rem;
+  cursor: pointer;
+}
+
+.ChatWrapper_selected {
+  background-color: #3f376a;
+}
+
+.ChatWrapper-user {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.ChatWrapper-user_data {
+  text-align: initial;
+}
+
+.ChatWrapper-user_name {
+  margin-bottom: 0;
+}
+
+.ChatWrapper-user_lastMessage {
+  margin-top: 0;
+  text-align: left;
+}
+
+.ChatWrapper-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+}
+
+.ChatWrapper-info > * {
+  color: yellow;
+}
+
+.ChatWrapper-info_lastMessageHour {
+  margin: 0;
+}
+
+.ChatWrapper-info_legendIcons {
+  display: flex;
+  align-items: center;
+}

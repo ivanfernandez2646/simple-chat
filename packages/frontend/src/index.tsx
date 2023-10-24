@@ -1,0 +1,41 @@
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import { RecoilRoot } from "recoil";
+import { ThemeProvider } from "@emotion/react";
+import { createTheme } from "@mui/material";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const root = ReactDOM.createRoot(
+    document.getElementById("root") as HTMLElement
+  ),
+  theme = createTheme({
+    palette: {
+      primary: {
+        main: "#514688",
+      },
+      secondary: {
+        main: "#22e0ba",
+      },
+      info: {
+        main: "#ffff00",
+      },
+    },
+  }),
+  client = new QueryClient();
+
+root.render(
+  <RecoilRoot>
+    <QueryClientProvider client={client}>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </QueryClientProvider>
+  </RecoilRoot>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

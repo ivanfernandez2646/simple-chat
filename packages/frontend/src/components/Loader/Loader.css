@@ -1,0 +1,15 @@
+.Loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  z-index: 99;
+}
+
+.comment-wrapper {
+  position: fixed;
+  color: #22e0ba;
+}

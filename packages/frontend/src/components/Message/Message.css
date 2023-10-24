@@ -1,0 +1,41 @@
+.Message {
+  display: flex;
+  width: fit-content;
+  max-width: 30vw;
+  align-items: center;
+  margin: 1rem;
+  column-gap: 1rem;
+  word-wrap: break-word;
+  width: 50%;
+}
+
+.Message_left {
+  align-self: flex-start;
+}
+
+.Message_right {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.Message_text {
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.Message_text-left {
+  background-color: #ffffff;
+}
+.Message_text-left > p {
+  color: #7b7b7b;
+}
+
+.Message_text-right {
+  background-color: #22e0ba;
+}
+
+.Message_text-right > p {
+  color: #ffffff;
+}

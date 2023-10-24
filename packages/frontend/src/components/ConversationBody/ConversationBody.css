@@ -1,0 +1,9 @@
+.ConversationBody {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f2f2;
+  max-height: 50vh;
+  overflow-y: auto;
+  position: relative;
+}

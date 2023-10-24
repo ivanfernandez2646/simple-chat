@@ -1,0 +1,15 @@
+.Chats {
+  background-color: #514688;
+  z-index: 10;
+  flex: 2 1 fit-content;
+}
+
+h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+p {
+  color: #9e93d5;
+  font-size: 0.8rem;
+}
